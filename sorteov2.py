@@ -7,8 +7,8 @@
 import random
 
 # Definimos los formularios y los asignados
-formularios = ["Formulario 1", "Formulario 2", "Formulario 3"]
-asignados = ["Víctor", "Rubén", "Markus"]
+formularios = ["Formulario 1", "Formulario 2", "Formulario 3"] # Arrays (empiezan por [] igual que PHP)
+asignados = ["Víctor", "Rubén", "Markus"] # Arrays
 
 # Barajamos los formularios de forma aleatoria
 random.shuffle(formularios)
@@ -19,8 +19,8 @@ print("Asignaciones de formularios:")
 
 # Uso de bucles anidados
 for i in range ((len(asignados))):
-    asignaciones = { asignados[i]: formularios[i] }
+    asignaciones = { asignados[i]: formularios[i] } # Diccionario (va con llaves)
 
     # Imprimimos los resultados
-    for persona, formulario in asignaciones.items():
+    for persona, formulario in asignaciones.items(): # Lo informamos en una tupla los elementos
         print(f"{persona} -> {formulario}")
