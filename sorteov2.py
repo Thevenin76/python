@@ -19,7 +19,7 @@ print("Asignaciones de formularios:")
 
 # Uso de bucles anidados
 for i in range ((len(asignados))):
-    asignaciones = { asignados[i]: formularios[i] } # Diccionario (va con llaves)
+    asignaciones = { asignados[i]: formularios[i] } # Diccionario (va con llaves) , es igual a un array asociativo en PHP
 
     # Imprimimos los resultados
     for persona, formulario in asignaciones.items(): # Lo informamos en una tupla los elementos
