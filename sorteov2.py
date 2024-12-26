@@ -1,7 +1,7 @@
 # Sorteador de tareas v2
 # 
 # Modifico el programa a una forma más entendible que el que proporciona la IA
-# Autor: david.yanes@eviden.com, davidyanesfarina@gmail.com
+# Autor: Thevenin76
 # 24/12/2024 Tenerife
 
 import random
