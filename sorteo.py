@@ -10,7 +10,7 @@ import random
 
 # Definimos los formularios y los asignados
 formularios = ["Formulario 1", "Formulario 2", "Formulario 3"]
-asignados = ["Víctor", "Rubén", "Markus"]
+asignados = ["Juan", "Pedro", "Eva"]
 
 # Barajamos los formularios de forma aleatoria
 random.shuffle(formularios)
